@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { useState } from 'react'
+import Link from 'next/link'
 
 
 
@@ -14,10 +15,10 @@ const Navbar = () => {
                     Skinlytic
                 </div>
                 <div className='hidden lg:flex list-none gap-8 '>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Upload Image</li>
-                    <li>How It Works?</li>
+                    <Link href='/' target='_main' > <li>Home</li> </Link>
+                    <Link href='/about' target='_main' > <li>About Us</li> </Link>
+                    <Link href='/upload' target='_main'  > <li>Upload Image</li> </Link>
+                    <Link href='/howitworks' target='_main' > <li>How It Works?</li> </Link>
                 </div>
                 <div className='hidden lg:block list-none'>
                     <li>Sign Up</li>
@@ -30,20 +31,20 @@ const Navbar = () => {
 
             <div className={`top-0 bg-[#2b2a2a] left-0 w-[40%]  text-white list-none flex flex-col justify-center h-[30vh] py-5 gap-y-4 transition-all duration-300 ${showmenu ? "translate-x-0" : "-translate-x-full"}`}>
                 <li className='cursor-pointer flex gap-3 items-center' onClick={() => setshowmenu(false)}>
-                <i className="fa-solid fa-house"></i>
+                    <i className="fa-solid fa-house"></i>
                     Home</li>
                 <li className='cursor-pointer flex gap-3 items-center' onClick={() => setshowmenu(false)}>
-                <i className="fa-solid fa-address-card"></i>
+                    <i className="fa-solid fa-address-card"></i>
                     About Us</li>
                 <li className='cursor-pointer flex gap-3 items-center' onClick={() => setshowmenu(false)}>
-                <i className="fa-solid fa-house"></i>
-                Upload Image</li>
+                    <i className="fa-solid fa-house"></i>
+                    Upload Image</li>
                 <li className='cursor-pointer flex gap-3 items-center' onClick={() => setshowmenu(false)}>
-                <i className="fa-solid fa-question"></i>
-                How It Works?</li>
+                    <i className="fa-solid fa-question"></i>
+                    How It Works?</li>
                 <li className='cursor-pointer flex gap-3 items-center' onClick={() => setshowmenu(false)}>
-                <i className="fas fa-user-alt"></i>
-                Sign Up</li>
+                    <i className="fas fa-user-alt"></i>
+                    Sign Up</li>
 
             </div>
         </div>

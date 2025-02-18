@@ -3,7 +3,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      i am Footer
+      <footer className="bg-black text-white text-center p-6">
+        <p>© 2024 Skinlytic. All rights reserved.</p>
+      </footer>
+
     </div>
   )
 }

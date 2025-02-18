@@ -1,10 +1,10 @@
 
-
+import reviews from "@/components/reviews"
 
 export default function Home() {
-  return (<div className="w-full h-full relative -z-10">
-    <div className=" w-full h-screen overflow-hidden">
-      <video className="absolute h-[95%] w-full object-cover " src="/video-heropage.mp4" autoPlay loop muted ></video>
+  return (<div className="w-full h-screen relative -z-10">
+    <div className=" w-full h-full overflow-hidden">
+      <video className="absolute h-[100%] w-full object-cover " src="/video-heropage.mp4" autoPlay loop muted ></video>
 
       <div className="absolute text-black flex flex-col justify-center items-center h-screen text-center px-6">
         <h1 className="text-5xl font-bold">Analyze Your Skin Instantly</h1>
@@ -15,8 +15,22 @@ export default function Home() {
           Upload Your Image
         </button>
       </div>
-
     </div>
+
+    <div className=" bg-gray-100 py-16">
+      <h2 className="text-center text-4xl font-bold">What Our Users Say</h2>
+      <div className="flex flex-wrap justify-center gap-10 mt-8">
+        <div className="bg-white p-6 rounded-lg shadow-lg">
+          <p>"Amazing AI technology! It detected my acne issues perfectly."</p>
+          <h3 className="mt-4 font-semibold">- Sarah M.</h3>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-lg">
+          <p>"Super accurate skin analysis. Helped me improve my skincare routine."</p>
+          <h3 className="mt-4 font-semibold">- John D.</h3>
+        </div>
+      </div>
+    </div>
+    
   </div>
   );
 }
