@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className='text-3xl'>
                     Skinlytic
                 </div>
-                <div className='hidden list-none lg:flex gap-8 '>
+                <div className='hidden lg:flex list-none gap-8 '>
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Upload Image</li>
