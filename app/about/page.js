@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "react"
 
 const about = () => {
   return (
@@ -13,7 +14,7 @@ const about = () => {
             Learn More
           </button>
         </div>
-        <img src="/ai-skin-analysis.png" className="lg:w-1/2 mt-8 lg:mt-0" />
+        <Image src="/ai-skin-analysis.png" className="lg:w-1/2 mt-8 lg:mt-0" />
       </div>
 
     </div>
