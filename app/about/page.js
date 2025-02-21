@@ -1,5 +1,6 @@
 import React from 'react'
-import Image from "react"
+import Image from 'next/image';
+
 
 const about = () => {
   return (
@@ -14,7 +15,7 @@ const about = () => {
             Learn More
           </button>
         </div>
-        <Image src="/ai-skin-analysis.png" className="lg:w-1/2 mt-8 lg:mt-0" />
+        <Image src="/ai-skin-analysis.png" className="lg:w-1/2 mt-8 lg:mt-0" alt="AI Skin Analysis" />
       </div>
 
     </div>
