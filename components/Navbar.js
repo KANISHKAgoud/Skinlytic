@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="hidden list-none lg:flex gap-8">
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About Us</Link></li>
-          <li><Link href="/upload">Upload Image</Link></li>
+          <li><Link href="/symptoms">Upload Image</Link></li>
           <li><Link href="/how-it-works">How It Works?</Link></li>
         </div>
         <div className="hidden lg:block list-none">
@@ -44,7 +44,7 @@ const Navbar = () => {
         </li>
         <li className="cursor-pointer flex gap-3 items-center px-5">
           <i className="fa-solid fa-upload"></i>
-          <Link href="/upload" onClick={() => setshowmenu(false)}>Upload Image</Link>
+          <Link href="/symptoms" onClick={() => setshowmenu(false)}>Upload Image</Link>
         </li>
         <li className="cursor-pointer flex gap-3 items-center px-5">
           <i className="fa-solid fa-question"></i>
