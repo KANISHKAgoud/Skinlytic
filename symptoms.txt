@@ -1,0 +1,5 @@
+cough, fever, sore throat,Flu
+rash, itch, redness,Skin Infection
+headache, light sensitivity,Migraine
+sneezing, runny nose,Allergy
+fatigue, body ache,Common Cold
