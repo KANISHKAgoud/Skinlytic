@@ -28,9 +28,9 @@ export default function SymptomPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-8 max-w-screen">
-      <div className=" mx-auto bg-white p-6 rounded-lg shadow-md max-w-screen">
-        <h1 className="text-3xl font-bold text-center text-blue-600 mb-6 max-w-screen">Symptom Analyzer</h1>
+    <div className="min-h-screen bg-gray-100 py-8 ">
+      <div className="mx-auto bg-white p-6 rounded-lg shadow-md w-[85%]">
+        <h1 className="text-3xl font-bold text-center text-blue-600 mb-6 ">Symptom Analyzer</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label htmlFor="symptoms" className="block text-sm font-medium text-gray-700">
