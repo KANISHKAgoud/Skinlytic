@@ -66,7 +66,7 @@ const Navbar = () => {
         </button>
 
         {/* Logo */}
-        <div className="text-3xl">Skinlytic</div>
+        <div className="text-3xl text-black">Skinlytic</div>
 
         {/* Desktop Navigation */}
         <div className="hidden list-none lg:flex gap-8">
