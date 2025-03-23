@@ -91,6 +91,7 @@ Once deployed, you can access your app at the provided Vercel URL.
 ## Live Demo
 Check out the live demo of this project deployed on Vercel:
 👉 https://skinlytic-ai.vercel.app/  
+👉 https://skinlytic-brtn3s3j4-kanishka-gouds-projects.vercel.app/
 
 ## Contributing
 Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request or submit an issue on the GitHub repository.
