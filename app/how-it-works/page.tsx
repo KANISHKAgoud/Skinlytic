@@ -25,7 +25,8 @@ export default function HowItWorks() {
               <p className="mt-2 text-base sm:text-lg text-gray-700">
                 Enter your age, gender, and weight to help us tailor the analysis to your specific needs.
               </p>
-            </div>
+            </div> 
+            
           </div>
           <div className="flex flex-col sm:flex-row items-start">
             <div className="flex-shrink-0">
