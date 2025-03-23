@@ -1,3 +1,5 @@
+import * as tf from "@tensorflow/tfjs";
+
 export const analyzeImage = async (file: File, model: tf.LayersModel) => {
   const img = new Image();
   img.src = URL.createObjectURL(file);
