@@ -69,11 +69,11 @@ const Navbar = () => {
         <div className="text-3xl text-black">Skinlytic</div>
 
         {/* Desktop Navigation */}
-        <div className="hidden list-none lg:flex gap-8">
+        <div className="hidden list-none lg:flex gap-8 text-black">
           <li>
             <Link href="/">Home</Link>
           </li>
-          <li>
+          <li className="text-black">
             <Link href="/about">About Us</Link>
           </li>
           <li>
@@ -96,12 +96,12 @@ const Navbar = () => {
       {/* Mobile Sidebar Navigation */}
       <div
         ref={sidebarRef}
-        className={`fixed top-0 left-0 w-[60%] bg-[#2b2a2a] text-white list-none flex flex-col h-[50%] py-5 gap-y-4 overflow-y-auto transition-transform duration-300 transform ${
+        className={`fixed top-0 left-0 w-[60%] bg-[#2b2a2a] text-black list-none flex flex-col h-[50%] py-5 gap-y-4 overflow-y-auto transition-transform duration-300 transform ${
           showMenu ? "translate-x-0" : "-translate-x-full"
         }`}
         style={{ zIndex: 1000, border: "2px solid red" }} // Debugging border
       >
-        <li className="cursor-pointer flex gap-3 items-center px-5">
+        <li className="cursor-pointer flex gap-3 items-center px-5 text-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -196,7 +196,7 @@ const Navbar = () => {
             How It Works?
           </Link>
         </li>
-        <li className="cursor-pointer flex gap-3 items-center px-5">
+        <li className="cursor-pointer flex gap-3 items-center px-5 text-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"

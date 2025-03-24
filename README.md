@@ -37,6 +37,20 @@ npm run dev
 
 After running the command, open http://localhost:3000 in your browser to see the app in action.
 
+**Now you have to simultaneously run the app.py file in the terminal**
+Make sure you are in the right directory were the app.py file is there
+To do that make sure you have install this :
+
+pip install flask
+
+pip install Pillow
+
+pip install numpy
+
+Now run the app.py file :
+
+python app.py
+
 ## Using the App
 1. **Upload an Image:**
 
@@ -60,6 +74,19 @@ When you run the development server, you should see something like this in your 
   - Local:        http://localhost:3000
   - Environments: .env.local
   - Ready in 2.1s
+
+When you run the python file the output looks something like this:
+
+C:\Users\KJCOEMR\Desktop\kk>python app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:←[31m←[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.←[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:←[33mPress CTRL+C to quit←[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-518-493
+
 
 ## Learn More
 To learn more about the technologies used in this project, check out the following resources:
