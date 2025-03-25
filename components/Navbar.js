@@ -120,6 +120,16 @@ const Navbar = () => {
           <Link href="/" onClick={() => setShowMenu(false)}>
             Home
           </Link>
+          <Link href="/about" onClick={() => setShowMenu(false)}>
+            About
+          </Link>
+          <Link href="/symptoms" onClick={() => setShowMenu(false)}>
+            Symptoms
+          </Link>
+          <Link href="/Upload-Photo" onClick={() => setShowMenu(false)}>
+            Upload
+          </Link>
+          
         </li>
         {/* ... other list items ... */}
       </div>
