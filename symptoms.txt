@@ -2,4 +2,24 @@ cough, fever, sore throat,Flu
 rash, itch, redness,Skin Infection
 headache, light sensitivity,Migraine
 sneezing, runny nose,Allergy
-fatigue, body ache,Common Cold
+fatigue, body ache,Common Cold  
+chest pain, shortness of breath,Heart Disease  
+high blood sugar, frequent urination,Diabetes  
+joint pain, stiffness, swelling,Arthritis  
+nausea, vomiting, stomach pain,Food Poisoning  
+dizziness, confusion, slurred speech,Stroke  
+sudden weight loss, excessive thirst,Diabetes  
+frequent headaches, high blood pressure,Hypertension  
+muscle weakness, trouble speaking,Neurological Disorder  
+yellow skin, dark urine,Jaundice  
+painful urination, cloudy urine,Urinary Tract Infection (UTI)  
+persistent cough, weight loss, night sweats,Tuberculosis (TB)  
+loss of smell, fever, cough,COVID-19  
+bloody stool, stomach cramps,Gastrointestinal Infection  
+swollen lymph nodes, unexplained fatigue,Lymphoma  
+burning sensation in chest, acid reflux,Gastroesophageal Reflux Disease (GERD)  
+blurry vision, eye pain,Glaucoma  
+dry mouth, increased thirst,Dehydration  
+trouble breathing, wheezing,Asthma  
+persistent sadness, loss of interest,Depression  
+insomnia, stress, restlessness,Anxiety Disorder  
