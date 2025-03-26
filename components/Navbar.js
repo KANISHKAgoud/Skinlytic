@@ -96,40 +96,30 @@ const Navbar = () => {
       {/* Mobile Sidebar Navigation - Added lg:hidden to hide on large screens */}
       <div
         ref={sidebarRef}
-        className={`lg:hidden fixed top-0 left-0 w-[60%] bg-[#2b2a2a] text-black list-none flex flex-col h-[50%] py-5 gap-y-4 overflow-y-auto transition-transform duration-300 transform ${
+        className={`lg:hidden fixed top-7 left-0 w-[60%] bg-[#2b2a2a] text-black list-none flex flex-col h-[30%] py-5 gap-y-4 overflow-y-auto transition-transform duration-300 transform ${
           showMenu ? "translate-x-0" : "-translate-x-full"
         }`}
         style={{ zIndex: 1000 }}
       >
         {/* ... rest of your mobile sidebar content remains the same ... */}
         <li className="cursor-pointer flex gap-3 items-center px-5 text-black">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-            />
-          </svg>
-          <div className="text-white flex flex-row ">
+          
+          <div className="text-white flex flex-col gap-4">
 
           <Link href="/" onClick={() => setShowMenu(false)}>
-          <li> Home</li>
+           Home
           </Link>
           <Link href="/about" onClick={() => setShowMenu(false)}>
-          <li>About</li>
+          About
           </Link>
           <Link href="/symptoms" onClick={() => setShowMenu(false)}>
-          <li> Symptoms</li>
+           Symptoms
           </Link>
           <Link href="/Upload-Photo" onClick={() => setShowMenu(false)}>
-          <li> Upload</li>
+           Upload
+          </Link>
+          <Link href="/how-it-works" onClick={() => setShowMenu(false)}>
+           How it Works?
           </Link>
           </div>
           
